@@ -9,39 +9,49 @@
   <title>Glammy Groomers</title>
 </head>
 
-<body>
-  <header>
+<body class="bodyBack content" >
+  <header class="whiteHead">
+    <div class="heads" id="myHeader">
     <img src="resources\GlammyGroomersLogo.png" alt="Logo" width="200px" length="200px">
-      <nav>
+      <nav class="straightBar">
         <ul>
           <li class="navBar"><a href="#about">About</a></li>
           <li class="navBar"><a href="#products">Products</a></li>
           <li class="navBar"><a href="#team">Team</a></li>
         </ul>
       </nav>
-    <h1>Welcome to the Glammy Experience</h1>
+    </div>
   </header>
   <main>
-    <div class="bodyBack">
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1>Glammorous Grooming Services</h1>
+        <p>Book your pets appointment</p>
+        <button type="button" class="buttons">Book Now</button>
+      </div>
+    </div>
       <section id="about">
         <h2>About My Company</h2>
         <p>My Company is dedicated to providing the best products and services to our customers. We believe in quality, innovation, and customer satisfaction.</p>
       </section>
 
       <section id="products">
-        <h2>Our Products</h2>
-        <ul>
-          <li>
-            <h3>Product 1</h3>
+        <h2>Our Glamorous Services</h2>
+          <div class="prodcontainer">
             <img src="product1.jpg" alt="Product 1">
-            <p>Product 1 is our top-selling product. It is known for its high quality and durability.</p>
-          </li>
-          <li>
-            <h3>Product 2</h3>
+            <h3>Full Glam</h3>
+            <p>Full Glam is our top-selling product. Your dog will receive a full grooming, a walk, and a day at the doggie daycare. It's like a spa treatment for your dog.</p>
+          </div>
+          <div class="prodcontainer">
             <img src="product2.jpg" alt="Product 2">
-            <p>Product 2 is a newer product that has quickly gained popularity for its unique features and design.</p>
-          </li>
-        </ul>
+            <h3>Pampered Pooch</h3>
+            <p>Pampered Pooch is a newer product that has quickly gained popularity for its unique features and design.</p>
+          </div>
+          <div class="prodcontainer">
+            <img src="product3.jpg" alt="Product 3">
+            <h3>Prim and Trim</h3>
+            <p>Prim and Trim is a newer product that has quickly gained popularity for its unique features and design.</p>
+          </div>
       </section>
 
       <section id="team">
@@ -62,10 +72,12 @@
     </div>
   </main>
 
-  <footer>
-    <p>Copyright © My Company</p>
+  <footer class="feets">
+    <div>
+    <p>Copyright © Glammy Groomers</p>
+    </div>
   </footer>
-
+<script src="scripts\stickyHead.js"/>
 </body>
 
 </html>
