@@ -12,6 +12,10 @@ body html {
     height: 100%;
 }
 
+div {
+    display: block;
+}
+
 /*Sticky Nav Bar */
 .whiteHead {
     margin-bottom: 0;
@@ -95,14 +99,34 @@ header {
     background-image: url(resources/GlammyGroomerBackG.png);
 }
 
-.prodcontainer {
-
-}
-
+/*products section*/
 #products {
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
+.prodcontainer {
+    padding: 10px;
+    flex-basis: 280px;
+}
+
+.prodImages {
+    background-color: #EB4C70;
+}
+
+/*Styles for the team section*/
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.teamMembers {
+    padding: 10px;
+    flex-basis: 280px;
+    font-size: 20px;
+}
 .feets {
     background-color: #EB4C70;
     margin: 10px 10px 0px 10px;
